@@ -1,0 +1,111 @@
+.contact{
+    background-image: url(../image/contact/contact.png);
+    width: 100%;
+    background-size: cover;
+}
+.contact h1{
+    text-align: center;
+    color: #fff;
+    padding: 200px 0;
+    font-weight: 700;
+    font-size: 70px;
+}
+
+
+/* grt in seaction */
+.contact-get h1{
+    text-align: center;
+    font-weight: 700;
+}
+.contact-get .custom-hr {
+    width: 8%;
+    margin: 0 auto;
+    text-align: center;
+}
+.contact-get hr {
+    border-top: 6px solid #1C4E1D;
+    opacity: 1;
+}
+.contact-get span{
+    color: #008E34;
+}
+.contact-get .box{
+    padding: 40px;
+    box-shadow: 0px 4px 40.5px 0px #00000040;
+    margin-top: 20px;
+    text-align: center;
+    border-radius: 10px;
+    height: 100%;
+}
+.contact-get .box .icon i{
+    background-color: #0B3D2C;
+    width: 100px;
+    height: 100px;
+    color: #fff;
+    font-size: 40px;
+    border-radius: 50%;
+    line-height: 100px;
+}
+.contact-get .box h5{
+    color: #0B3D2C;
+    padding-top: 20px;
+}
+.contact-get .box p{
+    color: #0B3D2C;
+    font-weight: 400;
+}
+
+
+
+/* workin hourse seaction start */
+.contact-work h2{
+    font-weight: 700;
+}
+.contact-work p{
+    font-weight: 600;
+    margin-top: 20px;
+}
+.contact-work .hours{
+    margin-top: 40px;
+    color: #0B3D2C;
+}
+.contact-work .time{
+    padding: 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 100px; */
+}
+.contact-work .message{
+    padding: 40px;
+    box-shadow: 0px 0px 11.6px 0px #00000040;
+    border-radius: 10px;
+}
+.contact-work .message .form-control{
+    border: 2px solid #0B3D2C;
+    margin-top: 30px;
+}
+.contact-work .message .button{
+    text-align: center;
+    background: #0B3D2C;
+    padding: 15px;
+    border-radius: 10px;
+    color: #fff;
+    margin-top: 40px;
+    margin-bottom: 70px;
+}
+
+
+@media screen and (max-width: 991px) and (min-width: 768px){
+    .contact h1{
+        padding: 180px 0;
+        font-size: 50px;
+    }
+}
+
+
+@media screen and (max-width: 767px) and (min-width: 426px) {
+    .contact h1{
+        padding: 180px 0;
+        font-size: 40px;
+    }
+}
