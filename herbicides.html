@@ -589,6 +589,7 @@
     <!-- swiper js  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- slider -->
     <script>
         var swiper = new Swiper('.mySwiper', {
           slidesPerView: 3,
@@ -627,19 +628,40 @@
 
         }
         });
-      </script>
+    </script>
+
+    <!-- header drop down menu -->
+    <script>
+        function showDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.add("show");
+            document.querySelector(".dropdown-menu").classList.add("show");
+        }
+
+        function hideDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.remove("show");
+            document.querySelector(".dropdown-menu").classList.remove("show");
+        }
+    </script>
 
 
-<script>
-    function showDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.add("show");
-        document.querySelector(".dropdown-menu").classList.add("show");
-    }
 
-    function hideDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.remove("show");
-        document.querySelector(".dropdown-menu").classList.remove("show");
-    }
-</script>
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- scroll website to text scroll -->
+    <script>
+        ScrollReveal({
+            reset: false,
+            distance: '50px',
+            duration: 2500,
+            delay: 90
+        });
+        ScrollReveal().reveal('.product h1', { origin: 'top' });
+        ScrollReveal().reveal('.why-product h1', { origin: 'bottom' });
+        ScrollReveal().reveal('.client-say h1', { origin: 'top' });
+        
+    </script>
+
+
 </body>
 </html>

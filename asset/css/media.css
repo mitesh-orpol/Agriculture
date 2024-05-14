@@ -33,18 +33,7 @@
     .a-key .col-lg-3{
         width: 25%;
     }
-    .client .card .client-img{
-        left: 110px;
-    }
-    .client .card .double{
-        left: 121px;
-    }
-    .client-say .card .client-img{
-        left: 110px;
-    }
-    .client-say .card .double{
-        left: 121px;
-    }
+    
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
@@ -194,9 +183,6 @@
         display: none;
     }
    
-    /* .provide .provide-img{
-        border: none;
-    } */
     .provide h5{
         text-align: start;
     }

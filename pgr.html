@@ -105,21 +105,8 @@
 
     <!-- categories seaction start -->
     <div class="categories-product">
-        <div class="container">
-            
-            <!-- <div class="row ">
-                <div class="col-lg-2 option showall"><h5>All</h5></div>
-                <div class="col-lg-2 option insecticides">Insecticides</div>
-                <div class="col-lg-2 option herbicides">Herbicides</div>
-                <div class="col-lg-2 option pgr">PGR</div>
-                
-                <div class="col-lg-2 option comming">Comming soon</div>
-            </div> -->
-            
-            
-
+        <div class="container">          
             <div class="products">
-
                 <div class="row">
                     <div class="col-lg-4 padding_top20 margin_bottom20">
                         <div class="f-pr">
@@ -424,56 +411,6 @@
             </div>
         
         
-            <!-- <div class="gtco-testimonials">
-
-                <div class="owl-carousel owl-carousel1 owl-theme">
-                  <div>
-                    <div class="card text-center"><img class="card-img-top" src="asset/image/home/client1.png" alt="">
-                      <div class="card-body">
-                        <h5>Ronne Galle <br />
-                          <span> Project Manager </span>
-                        </h5>
-                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                          impedit quo minus id quod maxime placeat ” </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="card text-center"><img class="card-img-top" src="asset/image/home/client1.png" alt="">
-                      <div class="card-body">
-                        <h5>Missy Limana<br />
-                          <span> Engineer </span>
-                        </h5>
-                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                          impedit quo minus id quod maxime placeat ” </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="card text-center"><img class="card-img-top" src="asset/image/home/client1.png" alt="">
-                      <div class="card-body">
-                        <h5>Martha Brown<br />
-                          <span> Project Manager </span>
-                        </h5>
-                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                          impedit quo minus id quod maxime placeat ” </p>
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <div class="card text-center"><img class="card-img-top" src="asset/image/home/client1.png" alt="">
-                      <div class="card-body">
-                        <h5>Hanna Lisem<br />
-                          <span> Project Manager </span>
-                        </h5>
-                        <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
-                          impedit quo minus id quod maxime placeat ” </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> -->
-
 
         
         </div>
@@ -588,6 +525,7 @@
     <!-- swiper js  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- slider -->
     <script>
         var swiper = new Swiper('.mySwiper', {
           slidesPerView: 3,
@@ -629,16 +567,39 @@
       </script>
 
 
-<script>
-    function showDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.add("show");
-        document.querySelector(".dropdown-menu").classList.add("show");
-    }
+    <!-- header dropdown menu -->
+    <script>
+        function showDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.add("show");
+            document.querySelector(".dropdown-menu").classList.add("show");
+        }
 
-    function hideDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.remove("show");
-        document.querySelector(".dropdown-menu").classList.remove("show");
-    }
-</script>
+        function hideDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.remove("show");
+            document.querySelector(".dropdown-menu").classList.remove("show");
+        }
+    </script>
+
+
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- scroll website to text scroll -->
+    <script>
+        ScrollReveal({
+            reset: false,
+            distance: '50px',
+            duration: 2500,
+            delay: 90
+        });
+        ScrollReveal().reveal('.product h1', { origin: 'top' });
+        ScrollReveal().reveal('.why-product h1', { origin: 'bottom' });
+        ScrollReveal().reveal('.client-say h1', { origin: 'top' });
+        
+    </script>
+
+
+
 </body>
 </html>

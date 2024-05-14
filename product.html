@@ -98,7 +98,7 @@
             <div class="custom-hr">
                 <hr>
             </div>
-            <p>We are a leading Manufacturer of a wide range of Agriculture Fungicide, Organic Pesticide, Bio Larvicide, Plant Growth Promoter, Liquid Detergent, Bio Insecticides and many more.We offer these products at reasonable rates and deliver these within the promised time-frame.</p>
+            <p>We are a leading Manufacturer of a wide range of Agriculture Fungicide, Organic Pesticide, Bio Larvicide, Plant Growth Promoter, Liquid Detergent, Bio Insecticides and many more.We offer these products at reasonable rates and deliver these within the promised time-frame.</p>
         </div>
     </div>
     <!-- why choose our product seactio end -->
@@ -106,19 +106,6 @@
     <!-- categories seaction start -->
     <div class="categories-product">
         <div class="container">
-            <!-- <h4>CATEGORIES</h4>
-            <hr> -->
-            <!-- <div class="row ">
-                <div class="col-lg-2 option showall"><h5>All</h5></div>
-                <div class="col-lg-2 option insecticides">Insecticides</div>
-                <div class="col-lg-2 option herbicides">Herbicides</div>
-                <div class="col-lg-2 option pgr">PGR</div>
-                
-                <div class="col-lg-2 option comming">Comming soon</div>
-            </div> -->
-            
-            
-
             <div class="products">
                 <div class="row">
                     <div class="col-lg-4 padding_top20 margin_bottom20">
@@ -213,7 +200,6 @@
                                         <p><span>Dose/Acre : </span>200-250ML</p>
                                         <p><span>Packing : </span>1L, 500ML, 250ML, 100ML, 50ML</p> 
                                     </div>
-                                    
                                 </div>
                             </div>
 
@@ -232,13 +218,10 @@
                                         <p><span>Dose/Acre : </span>88-100GM </p>
                                         <p><span>Packing : </span>500GM, 250GM, 100GM, 50GM, 10GM</p> 
                                     </div>
-                                    
                                 </div>
                             </div>
-
                         </div>
                     </div>
-                    
                 </div>
                 <div class="row">
                     <div class="col-lg-4 padding_top20 margin_bottom20">
@@ -254,10 +237,8 @@
                                         <p><span>Dose/Acre : </span>100-150ML</p>
                                         <p><span>Packing : </span>1KG, 500GM, 250GM</p> 
                                     </div>
-                                    
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-lg-4 padding_top20 margin_bottom20">
@@ -273,15 +254,12 @@
                                         <p><span>Dose/Acre : </span> 90-120ML  </p>
                                         <p><span>Packing : </span>1L, 500ML, 250ML</p> 
                                     </div>
-                                    
                                 </div>
                             </div>
-
                         </div>
                     </div>
                     <div class="col-lg-4 padding_top20 margin_bottom20">
                         <div class="f-pr">
-
                             <div class="card margin_top50">
                                 <img src="asset/image/product/p-9.png" alt="" width="125px">
                                 <div class="card-body">
@@ -293,23 +271,19 @@
                                         <p><span>Dose/Acre : </span>20-50 GM </p>
                                         <p><span>Packing : </span>250GM, 100GM</p> 
                                     </div>
-                                    
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
-                    
                 </div>
             </div>
-            
         </div>
     </div>
 
 
     
 
-
+    <!-- testimonial seaction start -->
     <div class="client-say margin_top100">
         <div class="container">
             <h3><span>Client</span> Testimonials</h3>
@@ -478,7 +452,7 @@
         
         </div>
     </div>
-
+    <!-- testimonial seacyion end -->
 
 
     <!-- footer seaction start -->
@@ -588,6 +562,7 @@
     <!-- swiper js  -->
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+    <!-- slider -->
     <script>
         var swiper = new Swiper('.mySwiper', {
           slidesPerView: 3,
@@ -629,16 +604,38 @@
       </script>
 
 
-<script>
-    function showDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.add("show");
-        document.querySelector(".dropdown-menu").classList.add("show");
-    }
+      <!-- header dropdown menu -->
+    <script>
+        function showDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.add("show");
+            document.querySelector(".dropdown-menu").classList.add("show");
+        }
 
-    function hideDropdown() {
-        document.getElementById("navbarDropdownProducts").classList.remove("show");
-        document.querySelector(".dropdown-menu").classList.remove("show");
-    }
-</script>
+        function hideDropdown() {
+            document.getElementById("navbarDropdownProducts").classList.remove("show");
+            document.querySelector(".dropdown-menu").classList.remove("show");
+        }
+    </script>
+
+
+
+     <!-- scrollreveal -->
+     <script src="https://unpkg.com/scrollreveal"></script>
+
+     <!-- scroll website to text scroll -->
+     <script>
+         ScrollReveal({
+             reset: false,
+             distance: '50px',
+             duration: 2500,
+             delay: 90
+         });
+         ScrollReveal().reveal('.product h1', { origin: 'top' });
+        ScrollReveal().reveal('.why-product h1', { origin: 'bottom' });
+         ScrollReveal().reveal('.client-say h1', { origin: 'top' });
+         
+     </script>
+
+
 </body>
 </html>

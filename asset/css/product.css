@@ -206,6 +206,9 @@
         padding: 150px 0;
         font-size: 40px;
     }
+    .why-product p {
+        text-align: start;
+    }
    
     
 }
@@ -214,6 +217,9 @@
     .product h1{
         padding: 150px 0;
         font-size: 40px;
+    }
+    .why-product p {
+        text-align: start;
     }
    
    

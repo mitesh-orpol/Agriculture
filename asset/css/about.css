@@ -389,10 +389,10 @@
     background-color: #0B3D2C;
     color: white;
     display: block;
-    top: -35px;
     align-self: center;
     text-align: center;
     padding: 20px 40px;
+    top: -35px;
     border-radius: 10px;
     top: 320px;
 }
@@ -558,6 +558,9 @@
         top: 320px;
 
     }
+    .o-expert p{
+        text-align: start;
+    }
     .branche {
         display: none;
     }
@@ -576,6 +579,9 @@
     }
     .a-redison h1{
         margin-top: 10px;
+    }
+    .o-expert p{
+        text-align: start;
     }
     .branche {
         display: none;
@@ -600,8 +606,10 @@
     }
     .o-expert .box{
         padding: 20px 30px;
-        top: 200px;
-
+        top: 230px;
+    }
+    .o-expert p{
+        text-align: start;
     }
     .branche {
         display: none;

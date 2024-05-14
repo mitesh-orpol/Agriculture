@@ -88,6 +88,7 @@
     font-size: 25px;
     right: 14px;
     top: 52px;
+    border-radius: 7px;
 }
 .articles .box{
     padding: 20px;
@@ -131,8 +132,13 @@
     position: relative;
 }
 .end-blog .card{
+    position: relative;
+    overflow: hidden;
     box-shadow: 0px 1px 42.1px 0px #00000040;
-
+}
+.end-blog .card:hover img{
+    transform: scale(1.1);
+    transition: 0.5s ease-in;
 }
 .end-blog .blog-text .date h6{
     position: absolute;

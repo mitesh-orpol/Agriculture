@@ -290,6 +290,7 @@
     <script src="./asset/js/main.js" defer></script>
 
 
+    <!-- header dropdown menu -->
     <script>
         function showDropdown() {
             document.getElementById("navbarDropdownProducts").classList.add("show");
@@ -301,5 +302,24 @@
             document.querySelector(".dropdown-menu").classList.remove("show");
         }
     </script>
+
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- scroll website to text scroll -->
+    <script>
+        ScrollReveal({
+            reset: false,
+            distance: '50px',
+            duration: 2500,
+            delay: 90
+        });
+        ScrollReveal().reveal('.contact h1', { origin: 'top' });
+        ScrollReveal().reveal('.contact-get h1', { origin: 'bottom' });
+        
+    </script>
+
+
+
 </body>
 </html>
