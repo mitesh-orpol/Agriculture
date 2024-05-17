@@ -17,10 +17,9 @@
     padding-top: 0;
     width: 100%;
     z-index: 99999;
-    transition:  .3s ease-in;
+    transition: .3s ease-in;
 }
 .about-header .navbar{
-
     background: #083B0A;
 }
 .about-header .fixed-header.scrolled {
@@ -379,6 +378,9 @@
         left: 125%;
    }
 }
+.o-expert .mobile-expert{
+    display: none;
+}
 
 .o-expert .box-container{
     display: flex;
@@ -396,6 +398,7 @@
     border-radius: 10px;
     top: 320px;
 }
+
 .o-expert .box .ex-icon{
     text-align: center;
     display: flex;
@@ -436,8 +439,11 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 1322px) and (min-width: 1023px){
-
+@media screen and (max-width: 1400px) and (min-width: 992px){
+    .vision .image-wrapper img {
+        height: 455px;
+        max-width: 100%;
+    }
 }
 
 
@@ -452,8 +458,22 @@
     .a-redison .col-lg-4{
         width: 33%;
     }
+    
     .a-redison .col-lg-6{
         width: 50%;
+    }
+    .a-redison h1 {
+        margin-top: 20px;
+    }
+    .a-redison .redison-p{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .a-redison .row{
+        padding-top: 25px;
+    }
+    .a-redison h5{
+        font-size: 18px;
     }
     .a-key .col-lg-3{
         width: 25%;
@@ -466,6 +486,9 @@
 
 
 @media screen and (max-width: 991px) and (min-width: 768px){
+    .about .header .call{
+        margin-left: 20px;
+    }
     .about h1{
         padding: 180px 0;
         font-size: 50px;
@@ -482,6 +505,12 @@
     .a-redison h3 {
         margin-top: 50px;
     }
+    .a-redison h1 {
+        margin-top: 50px;
+    }
+    .a-redison .redison-p {
+        margin-top: 20px;
+    }
     .a-key .col-lg-3{
         width: 50%;
     }
@@ -494,7 +523,7 @@
     }
     .o-expert .box{
         padding: 10px 10px;
-        top: 150px;
+        top: 168px;
     }
     .o-expert .box h4{
         font-size: 18px;
@@ -512,6 +541,9 @@
 
 
 @media screen and (max-width: 767px) and (min-width: 426px) {
+    .tel{
+        display: block;
+    }
     .about-header .header .call{
         margin-left: 20px;
     }
@@ -541,6 +573,9 @@
 
 
 @media screen and (max-width: 425px) and (min-width: 376px) {
+    .tel{
+        display: block;
+    }
     .about-header .header .call{
         margin-left: 20px;
     }
@@ -554,12 +589,25 @@
     .a-redison h3 {
         margin-top: 20px;
     }
+    .a-redison .redison-p{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .a-redison .row{
+        padding-top: 10px;
+    }
+    .o-expert .full-expert{
+        display: none;
+    }
+    .o-expert .mobile-expert{
+        display: block;
+    }
     .o-expert .box{
         top: 320px;
-
     }
     .o-expert p{
         text-align: start;
+        font-size: 17px;
     }
     .branche {
         display: none;
@@ -570,15 +618,37 @@
 }
 
 @media screen and (max-width: 375px) and (min-width: 374px){
+    .tel{
+        display: block;
+    }
+    .about h1{
+        padding: 150px 0;
+        font-size: 40px;
+    }
     .o-expert .box{
         top: 280px;
-
     }
     .about-header .header .call{
         margin-left: 20px;
     }
     .a-redison h1{
         margin-top: 10px;
+    }
+    .a-redison h3 {
+        margin-top: 20px;
+    }
+    .a-redison .redison-p{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .a-redison .row{
+        padding-top: 10px;
+    }
+    .o-expert .full-expert{
+        display: none;
+    }
+    .o-expert .mobile-expert{
+        display: block;
     }
     .o-expert p{
         text-align: start;
@@ -604,9 +674,22 @@
     .a-redison h3 {
         margin-top: 20px;
     }
+    .a-redison .redison-p{
+        margin-top: 20px;
+        font-size: 17px;
+    }
+    .a-redison .row{
+        padding-top: 10px;
+    }
+    .o-expert .full-expert{
+        display: none;
+    }
+    .o-expert .mobile-expert{
+        display: block;
+    }
     .o-expert .box{
         padding: 20px 30px;
-        top: 230px;
+        top: 213px;
     }
     .o-expert p{
         text-align: start;

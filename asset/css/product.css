@@ -192,12 +192,22 @@
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
-
+    .product h1{
+        padding: 180px 0;
+        font-size: 50px;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 425px) {
-
+    .product h1{
+        padding: 150px 0;
+        font-size: 40px;
+    }
     
+    .why-product p {
+        text-align: start;
+        font-weight: 400;
+    }
 
     
 }
@@ -208,6 +218,7 @@
     }
     .why-product p {
         text-align: start;
+        font-weight: 400;
     }
    
     
@@ -220,6 +231,7 @@
     }
     .why-product p {
         text-align: start;
+        font-weight: 400;
     }
    
    

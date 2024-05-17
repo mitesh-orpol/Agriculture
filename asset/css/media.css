@@ -37,6 +37,9 @@
 }
 
 @media screen and (max-width: 991px) and (min-width: 768px) {
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-right: 20px;
+    }
    
     .home .navbar-nav {
         margin-left: 10px;
@@ -94,6 +97,9 @@
 }
 
 @media screen and (max-width: 767px) and (min-width: 426px) {
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-right: 20px;
+    }
     /* .home {
         padding-bottom: 50px;
     } */
@@ -149,7 +155,7 @@
         width: 50%;
     }
     .tel{
-        display: none;
+        display: block;
     }
     .about-header .navbar-nav {
         margin-left: 10px;
@@ -160,6 +166,9 @@
     
 }
 @media screen and (max-width: 425px) and (min-width: 376px) {
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-right: 20px;
+    }
     .home .navbar-nav {
         margin-left: 10px;
     }
@@ -182,9 +191,20 @@
     .home .home-slider .carousel-control-next{
         display: none;
     }
+    .welcome h2 {
+        font-weight: 600;
+    }
+    .welcome .welcome-text h5{
+        font-size: 18px;
+        font-weight:400;
+    }
+    .welcome .welcome-text p{
+        font-weight: 600;
+    }
    
     .provide h5{
         text-align: start;
+        font-size: 17px;
     }
 
     
@@ -201,7 +221,7 @@
         margin-left: 0px;
     }
     .tel{
-        display: none;
+        display: block;
     }
     .articles .blog-text .date h5{
         position: absolute;
@@ -226,6 +246,9 @@
 }
 
 @media screen and (max-width: 375px) and (min-width: 300px) {
+    [type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+        margin-right: 20px;
+    }
     .home .header{
         width: 100%;
         top: 0px;
@@ -248,7 +271,16 @@
     .home .header .call{
         margin-left: 25px;
     }
-    
+    .welcome h2 {
+        font-weight: 600;
+    }
+    .welcome .welcome-text h5{
+        font-size: 18px;
+        font-weight:400;
+    }
+    .welcome .welcome-text p{
+        font-weight: 600;
+    }
     
     .provide .col-md-3{
         width: 100%;
@@ -258,6 +290,7 @@
     } */
     .provide h5{
         text-align: start;
+        font-size: 17px;
     }
     
     .o-product .best-product .box{
@@ -286,7 +319,7 @@
         margin-left: 0px;
     }
     .tel{
-        display: none;
+        display: block;
     }
     .vision h2::after {
         width: 290px;

@@ -167,6 +167,9 @@
     color: #274E37;
     font-weight: 700;
 }
+.end-blog .mobile-end-blog{
+    display: none;
+}
 
 
 @media screen and (max-width: 1024px) and (min-width: 992px){
@@ -225,6 +228,12 @@
         right: 20px;
         top: -35px;
     }
+    .end-blog .mobile-end-blog{
+        display: block;
+    }
+    .end-blog .full-end-blog{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 375px) and (min-width: 300px){
@@ -242,5 +251,11 @@
         padding: 5px 10px;
         right: 30px;
         top: -30px;
+    }
+    .end-blog .mobile-end-blog{
+        display: block;
+    }
+    .end-blog .full-end-blog{
+        display: none;
     }
 }
